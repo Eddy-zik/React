@@ -2,10 +2,14 @@ import React from 'react'
 
 export default function AboutComp() {
   return (
-    <div>
+    <div className='Aboutcomp'>
+
+      {/* Image of Edward */}
       <section>        
         <img src='' alt='' className='border_img'/>
       </section>
+
+      {/* paragraph About Edward */}
       <section>        
         <p><b>About Us</b></p>
         <caption><h2> Edward Ezekiel-Hart </h2></caption>

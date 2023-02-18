@@ -1,11 +1,24 @@
 
 import './App.css';
 import NavComp from './Components/NavComp';
+import AboutComp from './Components/AboutComp'
+import HomeComp from './Components/HomeComp';
+import SkillsComp from './Components/SkillsComp';
+import WorkComp from './Components/WorkComp';
+import ContactComp from './Components/ContactComp';
+import FooterComp from './Components/FooterComp';
 
 function App() {
   return (
     <div className="App">
       <NavComp/>
+      <HomeComp/>
+      <AboutComp/>
+      <SkillsComp/>
+      <WorkComp/>
+      <ContactComp/>
+      <FooterComp/>
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

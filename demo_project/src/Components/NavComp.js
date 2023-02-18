@@ -6,8 +6,8 @@ export default function NavComp() {
     <nav className='nav'>
       
       <section className='nav_sec1'>
-        <img src={logo} alt='Website Logo'
-        height={30} width={70} />
+        <img className='ns_img' src={logo} alt='Website Logo'
+        height={50} width={110} />
       </section>
       <section>
         {/* <Link to="/">Home</Link>

@@ -36,14 +36,25 @@
     transform: rotate(360deg);
   }
 } */
+
 .nav{
   background-color: aqua;
-  height: 50px; 
+  height: 70px; 
 }
-img{
+.ns_img{
   background: none;
-  padding-left: 30px ;
+  padding-left: 40px ;
   padding-top: 10px;
 }
-.nav_sec1{
+.Aboutcomp{
+  margin-top: 520px;
+}
+/*HeadComp*/
+.hs_htag{
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 70px;
+}
+.hs_img{
+  text-align: center;
 }
